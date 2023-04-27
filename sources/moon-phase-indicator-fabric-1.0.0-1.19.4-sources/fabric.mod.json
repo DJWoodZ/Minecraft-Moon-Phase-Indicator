@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "moonphaseindicator",
+  "version": "${version}",
+  "name": "Moon Phase Indicator",
+  "description": "Displays information about the moon phase.",
+  "authors": [
+    "DJ WoodZ"
+  ],
+  "contact": {
+    "homepage": "https://github.com/DJWoodZ/Minecraft-Moon-Phase-Indicator",
+    "issues": "https://github.com/DJWoodZ/Minecraft-Moon-Phase-Indicator/issues",
+    "sources": "https://github.com/DJWoodZ/Minecraft-Moon-Phase-Indicator.git"
+  },
+  "license": "MIT",
+  "icon": "assets/moonphaseindicator/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.djwoodz.minecraft.moonphaseindicator_fabric.MoonPhaseIndicator"
+    ],
+    "client": [
+      "com.djwoodz.minecraft.moonphaseindicator_fabric.MoonPhaseIndicatorClient"
+    ],
+    "modmenu": [
+      "com.djwoodz.minecraft.moonphaseindicator_fabric.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "moonphaseindicator.mixins.json"
+  ],
+  "depends": {
+    "cloth-config": "^${cloth_config_version}",
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": ">=${fabric_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=${java_version}"
+  }
+}

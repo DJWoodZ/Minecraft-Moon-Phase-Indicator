@@ -36,7 +36,10 @@ Displays information about the moon phase.
 
 ## Download
 
-*Coming soon*
+You can download this mod from the following websites:
+
+* [CurseForge](https://www.curseforge.com/minecraft/mc-mods/moon-phase-indicator)
+* [Modrinth](https://modrinth.com/mod/moon-phase-indicator)
 
 ## License
 
